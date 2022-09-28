@@ -1,3 +1,7 @@
+import { useState } from 'react';
+
+
+
 import '../../style/button.scss'
 import './header.scss';
 import './header-media.scss'
@@ -7,6 +11,15 @@ import human from '../../resources/img/images/human.png';
 
 
 const Header = () => {
+
+
+    const [burger, setBurger] = useState(false);
+
+    const test = () => {
+        setBurger(!burger);
+    }
+
+
     return (
         <div className="header">
             <div className="header__head">
@@ -24,7 +37,7 @@ const Header = () => {
                         <li>Faq</li>
                         <li>Contact</li>
                     </ul>
-                    <div className="header__head-nav-burger">
+                    <div onClick={test} className={burger ? 'header__head-nav-burger header__head-nav-burger_active' : 'header__head-nav-burger'}>
                         <div></div>
                         <div></div>
                         <div></div>
@@ -43,6 +56,18 @@ const Header = () => {
                 </div>
             </div>
             <img src={human} alt="human" className="header__img" />
+
+            <div className={burger ? 'header__burger-block header__burger-block_active' : 'header__burger-block'}>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Features</li>
+                    <li>Product</li>
+                    <li>Reviews</li>
+                    <li>Faq</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
         </div>
     );
 }

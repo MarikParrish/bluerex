@@ -1,62 +1,88 @@
-.header{
-    background:url('../../resources/img/bg/header_bg.jpg') center center/cover no-repeat;
+.header {
+    background: url('../../resources/img/bg/header_bg.jpg') center center/cover no-repeat;
     height: 946px;
-    padding:65px 75px 0 82px;
-    color:#fff;
+    padding: 65px 75px 0 82px;
+    color: #fff;
     position: relative;
-    a{
-        color:#fff;
+
+    a {
+        color: #fff;
     }
 
-    &__head{
+    &__head {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        &-logo{
+
+        &-logo {
             display: flex;
             align-items: center;
 
-            &-img{
+            &-img {
                 width: 70px;
                 height: 62px;
-                img{
+
+                img {
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
                 }
             }
 
-            &-text{
+            &-text {
                 font-size: 41px;
                 font-weight: bold;
                 padding-left: 10px;
             }
         }
-        &-nav{
+
+        &-nav {
             display: flex;
             align-items: center;
-            ul{
+
+            ul {
                 list-style-type: none;
                 display: flex;
-                li{
+
+                li {
                     padding-right: 25px;
                     font-weight: bold;
-                    &:last-child{
+
+                    &:last-child {
                         padding-right: 0;
                     }
                 }
             }
 
-            &-burger{
+            &-burger {
                 display: none;
-                div{
-                    background-color:#fff;
+                cursor: pointer;
+                transition: all .5s;
+
+                div {
+                    background-color: #fff;
                     width: 30px;
-                    height: 5px;
+                    height: 5px;    
                     margin-top: 4px;
                     margin-left: 46px;
-                    &:first-child{
+
+                    &:first-child {
                         margin-top: 0;
+                    }
+                }
+
+                &_active{
+                    div{
+                        transition: all .5s;
+                        &:first-child{
+                            transform: rotateZ(-45deg);
+                        }
+                        &:nth-child(2){
+                            display: none;
+                        }
+                        &:last-child{
+                            transform: rotateZ(45deg);
+                        }
                     }
                 }
             }
@@ -67,48 +93,76 @@
 
 
 
-    &__body{
-        z-index:2;
+    &__body {
+        z-index: 2;
         position: relative;
         padding-top: 194px;
         padding-left: 156px;
-        &-info{
-            font-family:'PalatinoLinotype';
+
+        &-info {
+            font-family: 'PalatinoLinotype';
             font-size: 42px;
         }
-        
-        &-title{
+
+        &-title {
             font-size: 42px;
             width: 480px;
             line-height: 42px;
         }
 
-        &-descr{
+        &-descr {
             font-size: 23px;
             width: 700px;
             padding-top: 37px;
         }
 
-        &-btns{
+        &-btns {
             padding-top: 69px;
             padding-left: 40px;
 
-            &-btn{
+            &-btn {
                 margin-left: 22px;
             }
         }
     }
 
-    &__img{
-        bottom:0;
-        right:221px;
+    &__img {
+        bottom: 0;
+        right: 221px;
         position: absolute;
-        z-index:1;
+        z-index: 1;
 
-        img{
+        img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+    }
+
+    &__burger {
+        &-block {
+            transition: all .5s;
+            z-index:2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            width: 200px;
+            background:rgba(31, 30, 30, 0.829);
+            position: absolute;
+            top: 0;
+            left: -50%;
+            ul{
+                list-style: none;
+                li{
+                    padding-top: 20px;
+                }
+            }
+
+            &_active{
+                left: 0;
+            }
         }
     }
 }

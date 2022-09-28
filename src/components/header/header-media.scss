@@ -77,5 +77,46 @@
 }
 
 @media (max-width:576px){
+    .header{
+        padding-left: 10px;
+        padding-right: 0;
 
+        &__head{
+            &-nav{
+                &-burger{
+                    right: 15px;
+                }
+            }
+        }
+
+        &__body{
+            padding-top: 80px;
+            &-title{
+                font-size: 33px;
+                line-height: 33px;
+                padding-top: 20px;
+                max-width: 260px;
+            }
+            &-descr{
+                padding-top: 25px;
+                line-height: 21px;
+                font-size: 16px;
+            }
+
+            &-info{
+                font-size: 22px;
+            }
+
+            &-btns{
+                display: block;
+                padding-left: 21px;
+                button{
+                    margin-top: 30px;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
 }
