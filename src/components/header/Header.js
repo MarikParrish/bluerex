@@ -38,9 +38,9 @@ const Header = () => {
                         <li>Contact</li>
                     </ul>
                     <div onClick={test} className={burger ? 'header__head-nav-burger header__head-nav-burger_active' : 'header__head-nav-burger'}>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>

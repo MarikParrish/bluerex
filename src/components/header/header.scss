@@ -59,12 +59,14 @@
                 cursor: pointer;
                 transition: all .5s;
 
-                div {
+                span {
+                    display: block;
                     background-color: #fff;
                     width: 30px;
-                    height: 5px;    
+                    height: 3px;    
                     margin-top: 4px;
                     margin-left: 46px;
+                    transition: all .5s;
 
                     &:first-child {
                         margin-top: 0;
@@ -72,8 +74,9 @@
                 }
 
                 &_active{
-                    div{
+                    span{
                         transition: all .5s;
+                        margin-top: 0;
                         &:first-child{
                             transform: rotateZ(-45deg);
                         }
@@ -119,7 +122,9 @@
         &-btns {
             padding-top: 69px;
             padding-left: 40px;
-
+            button{
+                cursor: pointer;
+            }
             &-btn {
                 margin-left: 22px;
             }
@@ -152,7 +157,7 @@
             background:rgba(31, 30, 30, 0.829);
             position: absolute;
             top: 0;
-            left: -50%;
+            left: -100%;
             ul{
                 list-style: none;
                 li{

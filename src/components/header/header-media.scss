@@ -20,11 +20,24 @@
         &__body{
             padding-left: 84px;
         }
+
+        &__burger{
+            &-block{
+                display: none;
+            }
+        }
     }
 }
 
 @media (max-width:992px){
     .header{
+
+        &__burger{
+            &-block{
+                display: flex;
+            }
+        }
+
         height: 800px;
         &__img{
             display: none;
@@ -39,7 +52,7 @@
                 &-burger{
                     position: absolute;
                     right: 0;
-                    display: block;
+                    display: block; 
                 }
             }
         }
