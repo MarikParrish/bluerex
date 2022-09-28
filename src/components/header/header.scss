@@ -1,0 +1,114 @@
+.header{
+    background:url('../../resources/img/bg/header_bg.jpg') center center/cover no-repeat;
+    height: 946px;
+    padding:65px 75px 0 82px;
+    color:#fff;
+    position: relative;
+    a{
+        color:#fff;
+    }
+
+    &__head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-logo{
+            display: flex;
+            align-items: center;
+
+            &-img{
+                width: 70px;
+                height: 62px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &-text{
+                font-size: 41px;
+                font-weight: bold;
+                padding-left: 10px;
+            }
+        }
+        &-nav{
+            display: flex;
+            align-items: center;
+            ul{
+                list-style-type: none;
+                display: flex;
+                li{
+                    padding-right: 25px;
+                    font-weight: bold;
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                }
+            }
+
+            &-burger{
+                display: none;
+                div{
+                    background-color:#fff;
+                    width: 30px;
+                    height: 5px;
+                    margin-top: 4px;
+                    margin-left: 46px;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    &__body{
+        z-index:2;
+        position: relative;
+        padding-top: 194px;
+        padding-left: 156px;
+        &-info{
+            font-family:'PalatinoLinotype';
+            font-size: 42px;
+        }
+        
+        &-title{
+            font-size: 42px;
+            width: 480px;
+            line-height: 42px;
+        }
+
+        &-descr{
+            font-size: 23px;
+            width: 700px;
+            padding-top: 37px;
+        }
+
+        &-btns{
+            padding-top: 69px;
+            padding-left: 40px;
+
+            &-btn{
+                margin-left: 22px;
+            }
+        }
+    }
+
+    &__img{
+        bottom:0;
+        right:221px;
+        position: absolute;
+        z-index:1;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

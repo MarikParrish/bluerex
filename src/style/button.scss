@@ -1,0 +1,13 @@
+.btn, .btn-purple{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    color:#fff;
+    background-color: #f42267;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    &-purple{
+        background-color: #5f3fb8;
+    }
+}
