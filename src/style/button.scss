@@ -1,4 +1,5 @@
 .btn, .btn-purple{
+    cursor: pointer;
     width: 170px;
     height: 50px;
     border-radius: 30px;
@@ -10,4 +11,19 @@
     &-purple{
         background-color: #5f3fb8;
     }
+}
+
+.btn-shadow{
+    cursor: pointer;
+    width: 146px;
+    height: 49px;
+    box-shadow: 0px 10px 0 0 #ff5990;
+    background-color: #f42267;
+    border:none;
+    border-radius:10px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
 }

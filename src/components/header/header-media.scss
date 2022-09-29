@@ -79,11 +79,25 @@
 
 @media (max-width:768px){
     .header{
+
+        &__head{
+            &-logo{
+                &-text{
+                    font-size: 35px;
+                }
+            }
+        }
+
         &__body{
             padding-left: 20px;
 
+            &-title{
+                max-width:450px;
+            }
+
             &-btns{
                 padding-left: 10px;
+                margin-left: 10px;
             }
         }
     }
@@ -100,6 +114,11 @@
                     right: 15px;
                 }
             }
+            &-logo{
+                &-text{
+                    font-size: 30px;
+                }
+            }
         }
 
         &__body{
@@ -108,7 +127,7 @@
                 font-size: 33px;
                 line-height: 33px;
                 padding-top: 20px;
-                max-width: 260px;
+                max-width: 100%;
             }
             &-descr{
                 padding-top: 25px;

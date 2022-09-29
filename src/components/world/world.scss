@@ -1,0 +1,62 @@
+.world{
+    height: 658px;
+    background: url('../../resources/img/bg/world_bg.jpg') center center/cover no-repeat;
+    padding-top: 104px;
+    position: relative;
+
+    &__subtitle{
+        font-size: 32.5px;
+        font-family: PalatinoLinotype;
+    }
+
+    &__title{
+        font-size: 49px;
+        width: 550px;
+        line-height: 50px;
+        color:#484848;
+    }
+
+    &__nav{
+        padding-top: 42px;
+
+        
+        button{
+            cursor: pointer;
+            background:none;
+            margin-left: 60px;
+            border:none;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: bold;
+            &:first-child{
+                margin-left: 16px;
+            }
+        }
+        .btn{
+            width: 129px;
+            height: 46px;
+            box-shadow: 1.2px 3.8px 16px 0 rgba(1, 2, 2, 0.35);
+            background-color: #f42267;;
+        }
+    }
+    
+    &__descr{
+        padding-top: 45px;
+        font-size: 14px;
+        width: 565px;
+        font-weight: 600;
+        color: #1d1d1dc2;
+        line-height:25px;
+    }
+    
+    &__button{
+        margin:54px 0 0 13px;
+    }
+
+    &__watch{
+        position: absolute;
+        right: 275px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

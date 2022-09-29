@@ -1,8 +1,5 @@
 import { useState } from 'react';
 
-
-
-import '../../style/button.scss'
 import './header.scss';
 import './header-media.scss'
 
