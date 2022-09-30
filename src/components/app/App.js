@@ -7,6 +7,7 @@ import Header from '../header/Header';
 import World from '../world/World';
 import Achieve from '../achieve/Achieve';
 import Grow from '../grow/Grow';
+import Agency from '../agency/Agency';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <World/>
       <Achieve/>
       <Grow/>
+      <Agency/>
     </>
   );
 }
