@@ -10,7 +10,7 @@ const World = () => {
             <div className="container">
                 <div className="world__wrapper">
                     <div className="world__subtitle">Dream Big Inspire the World</div>
-                    <h2 className="world__title">We	turn creative ideas into your business.</h2>
+                    <h2 className="world__title title">We turn creative ideas into your business.</h2>
                     <div className="world__nav">
                         <button className="world__nav-btn">Web Design</button>
                         <button className="world__nav-btn">Mobile App</button>

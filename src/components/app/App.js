@@ -2,12 +2,15 @@ import './app.scss';
 import './app-media.scss';
 import '../../style/button.scss';
 import '../../style/button-media.scss';
+import '../../style/title.scss';
+import '../../style/title-media.scss';
 
 import Header from '../header/Header';
 import World from '../world/World';
 import Achieve from '../achieve/Achieve';
 import Grow from '../grow/Grow';
 import Agency from '../agency/Agency';
+import Work from '../work/Work';
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
       <Achieve/>
       <Grow/>
       <Agency/>
+      <Work/>
     </>
   );
 }

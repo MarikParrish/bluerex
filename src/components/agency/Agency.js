@@ -13,7 +13,7 @@ const Agency = () =>{
                 <div className="agency__wrapper">
                     <div className="agency__block">
                         <div className="agency__subtitle">We are best and creative agency</div>
-                        <h2 className="agency__title">We turn creative ideas into your business.</h2>
+                        <h2 className="agency__title title">We turn creative ideas into your business.</h2>
                         <div className="agency__descr">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.</div>
                         <div className="agency__design">
                             <div className="agency__graphic">
