@@ -2,7 +2,7 @@
     padding:99px 0 125px 0;
     &__wrapper{
         display: grid;
-        grid-template-columns: repeat(2,557px);
+        grid-template-columns: repeat(2,minmax(auto,557px));
         gap:77px;
         align-items: center;
     }
