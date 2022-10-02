@@ -1,0 +1,15 @@
+.companies{
+    padding:114px 0 114px 0;
+    background: #4b2d7f;
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        justify-content: center;
+        text-align: center;
+        align-items:flex-end;
+        column-gap: 151px;
+        row-gap:80px;
+    }
+
+}
