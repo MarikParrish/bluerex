@@ -1,0 +1,19 @@
+.network{
+    background: #4b2d7f;
+    padding: 50px 0;
+    color:#fff;
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        gap:40px;
+    }
+
+    &__social{
+        cursor: pointer;
+        border-right:2px solid #7647c7;
+        width: 100px;
+        &:last-child{
+            border: none;
+        }
+    }
+}
