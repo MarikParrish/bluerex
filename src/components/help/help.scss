@@ -1,0 +1,48 @@
+.help{
+    padding-top: 85px;
+    padding-bottom: 88px;
+    background:url('../../resources/img/bg/help_bg.jpg') center center/cover no-repeat;
+    color:#fff;
+    text-align: center;
+
+    &__subtitle{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    &__descr{
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 24px;
+    }
+
+    &__form{
+        display: flex;
+        margin-top: 66px;
+        gap: 20px;
+
+        &:active, :hover, :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        
+        input{
+            width: 450px;
+            border:none;
+            border-radius: 10px;
+            background:rgba(255, 255, 255, 0.349);
+            color:#fff;
+            padding-left: 40px;
+            &::placeholder{
+                color:#fff;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__btn{
+        background:#4b2d7f;
+        box-shadow: 0px 7px 0 0 #a57ee9;
+    }
+}

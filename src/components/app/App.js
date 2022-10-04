@@ -13,6 +13,7 @@ import Agency from '../agency/Agency';
 import Work from '../work/Work';
 import Companies from '../companies/Companies';
 import Client from '../client/Client';
+import Help from '../help/Help';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Work/>
       <Companies/>
       <Client/>
+      <Help/>
     </>
   );
 }
