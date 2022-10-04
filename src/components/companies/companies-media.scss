@@ -27,5 +27,11 @@
         &__wrapper{
             grid-template-columns: auto;
         }
+
+        &__logo{
+            img{
+                width: 100px;
+            }
+        }
     }
 }

@@ -1,0 +1,64 @@
+.employee{
+    padding-top: 176px;
+    background: url('../../resources/img/bg/world_bg.jpg') center center/cover no-repeat;
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,581px);
+    }
+
+    &__block{
+        display: grid;
+        grid-template-columns: repeat(2,280px);
+        column-gap: 19px;
+        row-gap:19px;
+    }
+
+    &__title{
+        color:#4b2d7f;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    &__list{
+        a{
+            color:#000;
+        }
+        ul{
+            list-style: none;
+            margin-left: 13px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            
+            li{
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__subblock{
+        img{
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+
+    &__footer{
+        display: flex;
+        width: 100%;
+        font-size: 16px;
+        background:#f6f6f6;
+        margin-top: 117px;
+        padding:55px 0;
+        justify-content: center;
+        gap:33px;
+        a{
+            position: relative;
+            color:#000;
+        }
+    }
+}

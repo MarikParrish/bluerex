@@ -6,11 +6,11 @@ const Network = () => {
         <div className="network">
             <div className="container">
                 <div className="network__wrapper">
-                    <div className="network__social">facebook</div>
-                    <div className="network__social">twitter</div>
-                    <div className="network__social">linkedin</div>
-                    <div className="network__social">instagram</div>
-                    <div className="network__social">behance</div>
+                    <a href="/" className="network__social">facebook</a>
+                    <a href="/" className="network__social">twitter</a>
+                    <a href="/" className="network__social">linkedin</a>
+                    <a href="/" className="network__social">instagram</a>
+                    <a href="/" className="network__social">behance</a>
                 </div>
             </div>
         </div>

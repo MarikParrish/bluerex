@@ -26,13 +26,13 @@ const Header = () => {
                 </div>
                 <div className="header__head-nav">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Features</li>
-                        <li>Product</li>
-                        <li>Reviews</li>
-                        <li>Faq</li>
-                        <li>Contact</li>
+                        <li><a href="/#">Home</a></li>
+                        <li><a href="/#">About</a></li>
+                        <li><a href="/#">Features</a></li>
+                        <li><a href="/#">Product</a></li>
+                        <li><a href="/#">Reviews</a></li>
+                        <li><a href="/#">Faq</a></li>
+                        <li><a href="/#">Contact</a></li>
                     </ul>
                     <div onClick={test} className={burger ? 'header__head-nav-burger header__head-nav-burger_active' : 'header__head-nav-burger'}>
                         <span></span>
@@ -56,13 +56,13 @@ const Header = () => {
 
             <div className={burger ? 'header__burger-block header__burger-block_active' : 'header__burger-block'}>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Features</li>
-                    <li>Product</li>
-                    <li>Reviews</li>
-                    <li>Faq</li>
-                    <li>Contact</li>
+                    <li><a href="/#">Home</a></li>
+                    <li><a href="/#">About</a></li>
+                    <li><a href="/#">Features</a></li>
+                    <li><a href="/#">Product</a></li>
+                    <li><a href="/#">Reviews</a></li>
+                    <li><a href="/#">Faq</a></li>
+                    <li><a href="/#">Contact</a></li>
                 </ul>
             </div>
         </div>

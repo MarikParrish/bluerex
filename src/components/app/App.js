@@ -15,6 +15,7 @@ import Companies from '../companies/Companies';
 import Client from '../client/Client';
 import Help from '../help/Help';
 import Network from '../network/Network';
+import Employee from '../employee/Employee';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Client/>
       <Help/>
       <Network/>
+      <Employee/>
     </>
   );
 }
