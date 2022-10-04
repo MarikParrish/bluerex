@@ -1,0 +1,54 @@
+.client{
+    padding-top: 73px;
+    padding-bottom: 104px;
+    // padding-left: 99px;
+    // height: 588px;
+    color:#fff;
+    background:url('../../resources/img/bg/client_bg.jpg') center center/cover no-repeat;
+    position: relative;
+
+    .container{
+        width: 1065px; 
+    }
+
+    &__subtitle{
+        font-size: 40px;
+        font-family: PalatinoLinotype;
+        margin-left: 6px;
+    }
+
+    &__title{
+        margin-left: 6px;
+        font-weight: bold;
+    }
+
+    &__descr{
+        position: relative;
+        font-style: italic;
+        font-size: 22px;
+        margin:78px 0 0 52px;
+        max-width:510px;
+    }
+
+    &__quotes{
+        position: absolute;
+        top: -29px;
+        left: -47px;
+    }
+
+    &__stars{
+        margin:76px 0 0 52px;
+    }
+
+    &__name{
+        font-size: 24px;
+        margin:26px 0 0 52px;
+    }
+
+    &__img{
+        position: absolute;
+        bottom:0;
+        right: 428px;
+    }
+
+}

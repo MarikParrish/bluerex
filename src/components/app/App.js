@@ -12,6 +12,7 @@ import Grow from '../grow/Grow';
 import Agency from '../agency/Agency';
 import Work from '../work/Work';
 import Companies from '../companies/Companies';
+import Client from '../client/Client';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Agency/>
       <Work/>
       <Companies/>
+      <Client/>
     </>
   );
 }
