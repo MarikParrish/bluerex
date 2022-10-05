@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/bluerex/static/css/main.7c34eefd.css",
+    "main.js": "/bluerex/static/js/main.019a9712.js",
+    "static/media/client.png": "/bluerex/static/media/client.e167fe450ca7ca37555e.png",
+    "static/media/human.png": "/bluerex/static/media/human.1a395c099ce02b1ced9f.png",
+    "static/media/palatinolinotype_italic.ttf": "/bluerex/static/media/palatinolinotype_italic.3efe21b72bcd5f89ecbe.ttf",
+    "static/media/watch.png": "/bluerex/static/media/watch.28a4dcd65f02b37b1455.png",
+    "static/media/secondworker.png": "/bluerex/static/media/secondworker.0c743fcba2ce7ac045c6.png",
+    "static/media/thirdworker.png": "/bluerex/static/media/thirdworker.2f23005447ab7f3701cf.png",
+    "static/media/fourthworker.png": "/bluerex/static/media/fourthworker.75e07041583860c43781.png",
+    "static/media/firstworker.png": "/bluerex/static/media/firstworker.4135563a79093ec96af3.png",
+    "static/media/creative.jpg": "/bluerex/static/media/creative.4ddd91c13c812280fd69.jpg",
+    "static/media/header_bg.jpg": "/bluerex/static/media/header_bg.f901c8890998a5308f4d.jpg",
+    "static/media/world_bg.jpg": "/bluerex/static/media/world_bg.5edd37c008bfd842b254.jpg",
+    "static/media/grow_bg.jpg": "/bluerex/static/media/grow_bg.3f893f5b8ae4c7d043d4.jpg",
+    "static/media/third_work.jpg": "/bluerex/static/media/third_work.b8c4cef43098eaf5f8a5.jpg",
+    "static/media/client_bg.jpg": "/bluerex/static/media/client_bg.844b3f58c851330e414a.jpg",
+    "static/media/fifth_work.jpg": "/bluerex/static/media/fifth_work.6c95ae4fadde5617b1b1.jpg",
+    "static/media/sixth_work.jpg": "/bluerex/static/media/sixth_work.31dd2f976743bec8e1ea.jpg",
+    "static/media/second_work.jpg": "/bluerex/static/media/second_work.d287c37694251ef641fa.jpg",
+    "static/media/help_bg.jpg": "/bluerex/static/media/help_bg.704ab4ba10def3409b44.jpg",
+    "static/media/first_work.jpg": "/bluerex/static/media/first_work.4168e3aad7a7c205721c.jpg",
+    "static/media/fourth_work.jpg": "/bluerex/static/media/fourth_work.8118cb9ee2d2c591bdf5.jpg",
+    "index.html": "/bluerex/index.html",
+    "main.7c34eefd.css.map": "/bluerex/static/css/main.7c34eefd.css.map",
+    "main.019a9712.js.map": "/bluerex/static/js/main.019a9712.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c34eefd.css",
+    "static/js/main.019a9712.js"
+  ]
+}
